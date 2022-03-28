@@ -2,14 +2,14 @@
 
 /* carousel */
 #mycarousel{
-    /* height: 150px; */
+    height: 150px; 
     
 }
 
 #mycarousel > .carousel-inner {
     height: inherit;
     box-sizing: border-box;
-    border: 1px red solid;
+    
 }
 
 

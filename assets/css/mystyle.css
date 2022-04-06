@@ -1,16 +1,41 @@
 
 
-/* carousel */
-#mycarousel{
-    height: 150px; 
+.meteo-container {
+    margin-top: 20px;
+    
+}
+.meteo{
+    padding: 20px;
+    margin: 0 auto;
+    width: 70%;
+    height: 500px;
+    box-sizing: border-box;
+    background-image: url("../images/meteo/meteo.jpg");
+    border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -ms-border-radius: 5px 5px 5px 5px;
+    -o-border-radius: 5px 5px 5px 5px;
     
 }
 
-#mycarousel > .carousel-inner {
-    height: inherit;
-    box-sizing: border-box;
-    
+.meteo-show{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    color: azure;
 }
+    .meteo-item1{
+        
+        font-size: 8em;
+        text-align: center;
+    }
+    .meteo-item2 > table{
+        padding: 10px;
+        
+        color: inherit;
+        background-color: rgba(197, 207, 216, 0.224);
+    }
 
 
 
